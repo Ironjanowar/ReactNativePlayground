@@ -10,7 +10,6 @@ export default class App extends React.Component {
 
     _onPressButton(color) {
         this.setState({backgroundColor: color})
-        this.forceUpdate()
     }
 
     render() {
